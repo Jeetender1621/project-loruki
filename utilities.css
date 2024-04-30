@@ -73,23 +73,23 @@
 }
 
 .p-1 {
-  padding: 1rep;
+  padding: 1rem;
 }
 
 .p-2 {
-  padding: 1.5rep;
+  padding: 1.5rem;
 }
 
 .p-3 {
-  padding: 2rep;
+  padding: 2rem;
 }
 
 .p-4 {
-  padding: 3rep;
+  padding: 3rem;
 }
 
 .p-5 {
-  padding: 4rep;
+  padding: 4rem;
 }
 
 .py-1 {
@@ -136,6 +136,34 @@
 }
 
 
+/* Text Colors */
+
+
+.text-primary{
+  color: var(--primary-color);
+}
+
+.text-seconday{
+  color: var(--secondary-color);
+}
+
+.text-light{
+  color: var(--light-color);
+}
+
+.text-dark{
+  color: var(--dark-color);
+}
+
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
 /* Text Sizes */
 
 .lead{
@@ -156,4 +184,30 @@
 
 .xl{
     font-size: 4rem;
+    margin: 18px 10px 40px;
 }
+
+/* Alert */
+
+.alert{
+  background-color: var(--light-color);
+  padding: 10px 20px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.alert i{
+  margin-right: 10px;
+  font-size: 1.5rem;
+}
+
+.alert-success{
+  background-color: var(--success-color);
+  color: #fff;
+}
+
+.alert-error{
+  background-color: var(--error-color);
+  color: #fff;
+}
+
